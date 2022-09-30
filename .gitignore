@@ -1,0 +1,13 @@
+# BACKEND
+backend/public/
+backend/dist/
+backend/log/
+
+# FRONTEND
+frontend/dist/
+frontend/log/
+
+# COMMON
+*/.env
+*/node_modules
+*/package-lock.json
