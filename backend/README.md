@@ -51,11 +51,3 @@ Socket
 JWT
 > TODO
 
-FUTURE OF FEATURE
-> Visualiation en direct des uploads utilisateurs,
-> Notif taches exécutées (Celon les droits)
-> Systeme accréditation des utilisateurs (Droit a la création de compte, ...)
-> Dashboard avec info global en temps réel (Graphique, Derniere tâches exécuter, ...)
-> Push notification (One signal) avec logique embarquée  
-> Application responsive
-> Sécurité 
