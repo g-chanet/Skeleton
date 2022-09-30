@@ -1,5 +1,5 @@
 import { Common, Gameobject, Media } from "..";
-import { I } from "../../";
+import { I } from "../..";
 
 //------------------------------------------
 //  INTERFACES

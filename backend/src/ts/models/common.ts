@@ -1,4 +1,4 @@
-import { S } from "..";
+import { M } from "..";
 
 export type mongoRef = mongoId | mongoDoc;
 export type mongoDoc = any;
@@ -12,7 +12,7 @@ export type mongoColor = mongoHex;
 
 export interface ISchema {
   readonly _id: mongoId;
-  readonly createdBy?: S.User.RefUser;
+  readonly createdBy?: M.User.RefUser;
   readonly updatedAt: Date;
   readonly createdAt: Date;
 }

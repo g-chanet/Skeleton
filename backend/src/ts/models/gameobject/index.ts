@@ -1,5 +1,5 @@
 import { Common, Media } from "..";
-import { I } from "../../";
+import { I } from "../..";
 
 //------------------------------------------
 //  INTERFACES
