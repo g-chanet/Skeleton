@@ -5,7 +5,7 @@ const jwtKey = (configs.env.get("TOKEN_KEY") || "hnU5Pno") as string;
 const jwtAlg = (configs.env.get("TOKEN_ALG") || "RS256") as Algorithm;
 const jwtExp = (configs.env.get("TOKEN_EXP") || "24h") as string;
 
-export function JwtSign(userId: string) {
+export function JwtSign(userId: string): string {
   return sign({ id: userId }, jwtKey, {
     expiresIn: jwtExp,
     algorithm: jwtAlg,

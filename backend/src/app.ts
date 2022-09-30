@@ -37,8 +37,6 @@ app.use("/user", router.userRoute);
 // app.use("/msg", router.msgRoute);
 // ...
 
-app;
-
 //==================================
 //  START SERVER
 //==================================

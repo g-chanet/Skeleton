@@ -1,18 +1,11 @@
 import winston from "winston";
 import moment from "moment";
 
-const tsFormat = () => moment().format("L hh:mm:ss").trim();
 const folder = moment().format("YYYY-MM-DD");
 const file = moment().format("hh-mm-ss");
+
+const tsFormat = () => moment().format("L hh:mm:ss").trim();
 const format = (info: any) => `${tsFormat()} [${info.level}]: ${info.message}`;
-const customLevels = {
-  levels: {
-    ssl: 3,
-  },
-  colors: {
-    ssl: "blue",
-  },
-};
 
 const log = winston.createLogger({
   format: winston.format.json(),

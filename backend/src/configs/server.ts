@@ -27,7 +27,7 @@ export function createServer(app: Express): {
   }
 }
 
-export async function checkSSL() {
+export async function checkSSL(): Promise<void> {
   try {
     const url = configs.env.get("WEBAPP_URL");
     const ssl = await sslChecker(url, { method: "GET", port: 443 });

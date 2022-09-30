@@ -14,4 +14,9 @@ export async function crudResponseToHttp(
   }
 }
 
-export async function socketToCtrl() {}
+export async function socketToCtrl(
+  req: any,
+  fn: (body: string) => Promise<any>
+) {
+  //TODO
+}
