@@ -1,0 +1,13 @@
+09/30/2022 08:21:23 [info]: 	Starting server in DEVELOPMENT mode
+09/30/2022 08:21:24 [info]: 	Mongo starting
+09/30/2022 08:21:24 [warn]: 	Server protocole as http because:
+ENOENT: no such file or directory, open './test_key.key'
+09/30/2022 08:21:24 [info]: 	Server is running at http://localhost:4242
+09/30/2022 08:21:24 [info]: 	Mongo is connected
+09/30/2022 08:21:24 [info]: 	RESUME 
+Days remaining:   37
+Valid:            true
+Valid from:       August 8, 2022
+Valid to:         November 6, 2022
+Valid for:        manadice.com,www.manadice.com
+

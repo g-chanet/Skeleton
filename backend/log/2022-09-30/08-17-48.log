@@ -1,0 +1,12 @@
+09/30/2022 08:17:48 [info]: 	Starting server in DEVELOPMENT mode
+09/30/2022 08:17:48 [warn]: 	Env 'MONGO_URI' is not define
+09/30/2022 08:17:48 [info]: 	Mongo starting
+09/30/2022 08:17:49 [warn]: 	Env 'SERVER_PORT' is not define
+09/30/2022 08:17:49 [warn]: 	Env 'SERVER_SSL_KEY' is not define
+09/30/2022 08:17:49 [warn]: 	Server protocole as http because:
+ENOENT: no such file or directory, open
+09/30/2022 08:17:49 [info]: 	Server is running at http://localhost:3000
+09/30/2022 08:17:49 [warn]: 	Env 'WEBAPP_URL' is not define
+09/30/2022 08:17:49 [error]: 	Mongo failed to login
+09/30/2022 08:17:49 [warn]: 	SSL checker error:
+connect ECONNREFUSED 127.0.0.1:443

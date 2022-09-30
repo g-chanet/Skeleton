@@ -1,7 +1,7 @@
 # BACKEND
 backend/public/
 backend/dist/
-backend/log/
+# backend/log/
 
 # FRONTEND
 frontend/dist/

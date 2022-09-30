@@ -1,3 +1,23 @@
+export enum ELanguage {
+  English = 0,
+  French = 1,
+  Spanish = 2,
+  Italian = 3,
+}
+
+export enum ETheme {
+  Dark = 0,
+  Light = 1,
+  CyberPunk = 2,
+}
+
+export enum EFriendStatus {
+  Friends = 0,
+  WaitingAction = 1,
+  WaitingResponse = 2,
+  Blocked = 3,
+}
+
 export enum StatusCode {
   /**
    * The server cannot or will not process the request due to an apparent
@@ -451,7 +471,5 @@ export enum StatusCode {
    * content. Unlike a 204 response, this response requires that the requester
    * reset the document view.
    */
-  SuccessResetContent = 205
+  SuccessResetContent = 205,
 }
-
-export default StatusCode

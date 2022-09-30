@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import StatusCode from "../ts/statuscode.enum";
+import { E } from "../ts";
 
 export async function crudResponseToHttp(
   req: Request,
@@ -8,9 +8,9 @@ export async function crudResponseToHttp(
 ) {
   try {
     const { doc } = await fn(req.body as any);
-    res.status(StatusCode.SuccessOK).json({ doc });
+    res.status(E.StatusCode.SuccessOK).json({ doc });
   } catch (error: any) {
-    res.status(StatusCode.ServerErrorInternal).json({ error: error.message });
+    res.status(E.StatusCode.ServerErrorInternal).json({ error: error.message });
   }
 }
 
